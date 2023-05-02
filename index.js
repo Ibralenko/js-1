@@ -1,8 +1,8 @@
 //1
 let cleaner = 40000;
 let teacher = 22000;
-let result = cleaner+teacher;
-console.log(result);
+let result = cleaner + teacher;
+console.log (result);//либо console.log(cleaner + teacher);
 //2
 let city ='Владивосток'
 let number= 2000;
@@ -13,8 +13,8 @@ let messenger = 128;
 let photo = 254;
 let vk = 137;
 let youtube=201;
-let minutes=messenger+photo+vk+youtube;
-let hours=minutes/60;
+let minutes = messenger+photo+vk+youtube;
+let hours = minutes/60;
 console.log(hours);
 //4
 let x=2**5;
@@ -30,9 +30,9 @@ console.log(result3);
 //7
 let time = 34;
 console.log('Старт поездки. Осталось минут: ' + time);
-time=15;
+time -= 15;
 console.log('Немного сториз в соцсетях. Осталось минут: ' + time);
-time = 10;
+time -= 10;
 console.log('Немного не новостей, но событий. Осталось минут: ' + time);
 time = 0;
 console.log('Вы приехали. Добро пожаловать в Москву');
